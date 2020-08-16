@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ubeya-tik-tok-toe/static/css/main.cf1778c7.chunk.css",
+    "main.js": "/ubeya-tik-tok-toe/static/js/main.2856673e.chunk.js",
+    "main.js.map": "/ubeya-tik-tok-toe/static/js/main.2856673e.chunk.js.map",
+    "runtime-main.js": "/ubeya-tik-tok-toe/static/js/runtime-main.2513002c.js",
+    "runtime-main.js.map": "/ubeya-tik-tok-toe/static/js/runtime-main.2513002c.js.map",
+    "static/js/2.3b139c02.chunk.js": "/ubeya-tik-tok-toe/static/js/2.3b139c02.chunk.js",
+    "static/js/2.3b139c02.chunk.js.map": "/ubeya-tik-tok-toe/static/js/2.3b139c02.chunk.js.map",
+    "index.html": "/ubeya-tik-tok-toe/index.html",
+    "precache-manifest.2a548d64521e7e87b1b4ffaa860fee2e.js": "/ubeya-tik-tok-toe/precache-manifest.2a548d64521e7e87b1b4ffaa860fee2e.js",
+    "service-worker.js": "/ubeya-tik-tok-toe/service-worker.js",
+    "static/css/main.cf1778c7.chunk.css.map": "/ubeya-tik-tok-toe/static/css/main.cf1778c7.chunk.css.map",
+    "static/js/2.3b139c02.chunk.js.LICENSE.txt": "/ubeya-tik-tok-toe/static/js/2.3b139c02.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2513002c.js",
+    "static/js/2.3b139c02.chunk.js",
+    "static/css/main.cf1778c7.chunk.css",
+    "static/js/main.2856673e.chunk.js"
+  ]
+}
