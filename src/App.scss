@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: #d8f9ff;
+  border: 1px solid black;
+  padding: 4px 8px;
+  margin: 0 10px;
+  transition: all.3s;
+  &:hover {
+    background-color: #c6f6ff;
+  }
+}
+
+.users {
+  padding: 0 0 8px;
+  .user-name {
+    height: 30px;
+    margin: 0;
+    padding: 4px;
+  }
+}
+
+.grid-game {
+  margin: 0 auto;
+  display: grid;
+  gap: 8px;
+  max-width: 90vw;
+  max-height: 80vh;
+  padding: 0 0 20px;
+  .grid-item {
+    cursor: pointer;
+    background-color: rgb(255, 215, 215);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all.3s;
+
+    &.color0:hover {
+      background-color: #b7ef9e;
+    }
+    &.color1:hover {
+      background-color: #b4b4f3;
+    }
+  }
+}
+
+.dimenstions-input {
+  width: 50px;
+}
