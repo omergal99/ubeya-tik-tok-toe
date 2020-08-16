@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e22627d4717db0076a88f10b1a09624",
+    "revision": "4a63648547016aca8c85a1e2114ac809",
     "url": "/ubeya-tik-tok-toe/index.html"
   },
   {
-    "revision": "2383cd90b19ed02885af",
-    "url": "/ubeya-tik-tok-toe/static/css/main.cf1778c7.chunk.css"
+    "revision": "14dd16e3270c9bc3a81c",
+    "url": "/ubeya-tik-tok-toe/static/css/main.87f42464.chunk.css"
   },
   {
     "revision": "a6618719477e4e51c0b4",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ubeya-tik-tok-toe/static/js/2.3b139c02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2383cd90b19ed02885af",
+    "revision": "14dd16e3270c9bc3a81c",
     "url": "/ubeya-tik-tok-toe/static/js/main.2856673e.chunk.js"
   },
   {
