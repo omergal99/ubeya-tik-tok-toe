@@ -12,7 +12,7 @@ function App() {
   const [arrayGame, setArrayGame] = React.useState([...Array(dimenstions)].map(() => [...Array(dimenstions)]));
   const [isGameEnd, setIsGameEnd] = React.useState(false);
 
-  const chooseBox = (idxRow, idxCol) => {
+  const diceClicked = (idxRow, idxCol) => {
     const diceIsNotEmpty = arrayGame[idxRow][idxCol];
     if (diceIsNotEmpty || isEditMode || isGameEnd) return;
     const copy = arrayGame;
@@ -43,12 +43,13 @@ function App() {
   }
 
   const checkDiagonals = (idxRow, idxCol, arrayToCheck) => {
-    if (idxRow + idxCol !== dimenstions - 1 && idxRow !== idxCol) return false;
+    const isDiagonalImpossible = idxRow + idxCol !== dimenstions - 1 && idxRow !== idxCol;
+    if (isDiagonalImpossible) return false;
     const mainDiagonal = arrayToCheck.every((item, idx) => {
-      return arrayToCheck[idx][idx] === arrayToCheck[idxRow][idxCol]
+      return arrayToCheck[idx][idx] === arrayToCheck[idxRow][idxCol];
     });
     const secondDiagonal = arrayToCheck.every((item, idx) => {
-      return arrayToCheck[idx][dimenstions - 1 - idx] === arrayToCheck[idxRow][idxCol]
+      return arrayToCheck[idx][dimenstions - 1 - idx] === arrayToCheck[idxRow][idxCol];
     });
     if (mainDiagonal || secondDiagonal) return true;
     else return false;
@@ -71,11 +72,12 @@ function App() {
     return arrayGame[idxRow].map((item, idxCol) => {
       const dice = arrayGame[idxRow][idxCol];
       return <li className={`grid-item ${!dice ? 'color' + currUser : ''}`} key={`${idxRow}-${idxCol}`}
+        onClick={() => diceClicked(idxRow, idxCol)}
         style={{
           backgroundColor: dice === 'X' ? '#b4b4f3' : dice === 'O' ? '#b7ef9e' : '',
           cursor: !dice ? 'pointer' : 'context-menu'
         }}
-        onClick={() => chooseBox(idxRow, idxCol)}>
+      >
         <div>{dice}</div>
       </li>
     })
