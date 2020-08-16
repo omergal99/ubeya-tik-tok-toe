@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ubeya-tik-tok-toe/precache-manifest.1603fd15a08bb479276c96ed57523c9c.js"
+  "/ubeya-tik-tok-toe/precache-manifest.6584200f9a2b12fb5c3d444325b9a3e5.js"
 );
 
 self.addEventListener('message', (event) => {

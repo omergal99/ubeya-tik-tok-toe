@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ubeya-tik-tok-toe/static/css/main.87f42464.chunk.css",
-    "main.js": "/ubeya-tik-tok-toe/static/js/main.2856673e.chunk.js",
-    "main.js.map": "/ubeya-tik-tok-toe/static/js/main.2856673e.chunk.js.map",
+    "main.js": "/ubeya-tik-tok-toe/static/js/main.b2c3717b.chunk.js",
+    "main.js.map": "/ubeya-tik-tok-toe/static/js/main.b2c3717b.chunk.js.map",
     "runtime-main.js": "/ubeya-tik-tok-toe/static/js/runtime-main.2513002c.js",
     "runtime-main.js.map": "/ubeya-tik-tok-toe/static/js/runtime-main.2513002c.js.map",
     "static/js/2.3b139c02.chunk.js": "/ubeya-tik-tok-toe/static/js/2.3b139c02.chunk.js",
     "static/js/2.3b139c02.chunk.js.map": "/ubeya-tik-tok-toe/static/js/2.3b139c02.chunk.js.map",
     "index.html": "/ubeya-tik-tok-toe/index.html",
-    "precache-manifest.1603fd15a08bb479276c96ed57523c9c.js": "/ubeya-tik-tok-toe/precache-manifest.1603fd15a08bb479276c96ed57523c9c.js",
+    "precache-manifest.6584200f9a2b12fb5c3d444325b9a3e5.js": "/ubeya-tik-tok-toe/precache-manifest.6584200f9a2b12fb5c3d444325b9a3e5.js",
     "service-worker.js": "/ubeya-tik-tok-toe/service-worker.js",
     "static/css/main.87f42464.chunk.css.map": "/ubeya-tik-tok-toe/static/css/main.87f42464.chunk.css.map",
     "static/js/2.3b139c02.chunk.js.LICENSE.txt": "/ubeya-tik-tok-toe/static/js/2.3b139c02.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2513002c.js",
     "static/js/2.3b139c02.chunk.js",
     "static/css/main.87f42464.chunk.css",
-    "static/js/main.2856673e.chunk.js"
+    "static/js/main.b2c3717b.chunk.js"
   ]
 }
